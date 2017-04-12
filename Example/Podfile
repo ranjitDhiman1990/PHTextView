@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PHTextView_Example' do
+  pod 'PHTextView', :path => '../'
+
+  target 'PHTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
